@@ -7,7 +7,7 @@ using namespace std;
 class myClass
 {
 public:
-    void rotateElements(vector<int> &nums, int k) // Fixed missing comma
+    void rotateElements(vector<int> &nums, int k)
     {
 
         k %= nums.size();                        // Modulo
