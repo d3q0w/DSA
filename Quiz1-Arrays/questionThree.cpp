@@ -25,13 +25,13 @@ public:
 int main()
 {
     // test
-    vector<int> nums1 = {1, 2, 3, 4, 5};
-    vector<int> nums2 = {1, 2, 3, 3, 4};
+    vector<int> nums1 = {1, 2, 3, 4, 5, 6, 8};
+    vector<int> nums2 = {1, 2, 3, 3, 4, 8, 7, 9};
 
     myClass testDuplicate;
 
-    cout << "Test 1 (No Duplicates): " << (testDuplicate.duplicateContained(nums1) ? "True" : "False") << endl;
-    cout << "Test 2 (Duplicate Present): " << (testDuplicate.duplicateContained(nums2) ? "True" : "False") << endl;
+    cout << "First Sample: " << (testDuplicate.duplicateContained(nums1) ? "True" : "False") << endl;
+    cout << "Second Sample: " << (testDuplicate.duplicateContained(nums2) ? "True" : "False") << endl;
 
     return 0;
 }
